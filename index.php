@@ -59,7 +59,7 @@
 
         foreach ($faqs as $title => $faq) {
             echo "<h1>" . $title . "</h1>";
-            foreach ($faq as $key => $pars) {
+            foreach ($faq as $pars) {
             echo "<p>" . $pars . "</p>";
             }
         }
